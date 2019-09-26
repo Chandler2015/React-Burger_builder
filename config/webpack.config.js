@@ -85,8 +85,8 @@ module.exports = function(webpackEnv) {
       },
       {
         loader: require.resolve('css-loader'),
-        options: cssOptions,modules:true,
-        localIdentName:'[name]__[local]__[hash:base64:5]',
+        // options: cssOptions,modules:true,
+        // localIdentName:'[name]__[local]__[hash:base64:5]',
 
       },
       {
@@ -95,8 +95,8 @@ module.exports = function(webpackEnv) {
         // package.json
         loader: require.resolve('postcss-loader'),
         options: {
-          modules:true,
-          localIdentName:'[name]__[local]__[hash:base64:5]',
+          // modules:true,
+          // localIdentName:'[name]__[local]__[hash:base64:5]',
           // Necessary for external CSS imports to work
           // https://github.com/facebook/create-react-app/issues/2677
           ident: 'postcss',
