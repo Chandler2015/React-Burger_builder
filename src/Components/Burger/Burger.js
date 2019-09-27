@@ -15,7 +15,7 @@ const burger =(props)=> {
     },[]);
 
     if(transformedIngredients.length ===0){
-        transformedIngredients = <p>Please Start adding ingredients!</p>
+        transformedIngredients = <p>Please Start adding ingredients, Miss <span style={{color:"red"}}>Unpredictable</span>!</p>
     }
     
 
